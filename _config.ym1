@@ -1,0 +1,13 @@
+# 网站基本设置
+title: P-OTATO
+email: your-email@example.com
+description: >-
+ 论文收容所的友好期刊。
+baseurl: "/my-journal"
+url: "" 
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+author: LIN
+permalink: /:year/:month/:day/:title.html
