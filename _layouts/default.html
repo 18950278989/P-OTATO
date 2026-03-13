@@ -9,9 +9,12 @@
 </head>
 <body>
   {% include header.html %}   <!-- 引用头部 -->
-  <main class="container">
+ <main class="container">
+  <div class="posts">
     {{ content }}
-  </main>
+  </div>
+  {% include sidebar.html %}
+</main>
   {% include footer.html %}   <!-- 引用脚注 -->
 </body>
 </html>
